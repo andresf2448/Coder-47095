@@ -121,10 +121,18 @@ valor1 || valor2 es verdadera cuando al menos uno de los dos valores es verdader
 //   alert("No eres ana");
 // }
 
-let nombre = prompt("Ingrese el nombre");
+// let nombre = prompt("Ingrese el nombre");
 
-if (nombre != "" && (nombre === "EMA" || nombre === "ema")) {
-  alert("Hola ema");
-} else {  
-  alert("Datos incorrectos");
+// if (nombre != "" && (nombre === "EMA" || nombre === "ema")) {
+//   alert("Hola ema");
+// } else {
+//   alert("Datos incorrectos");
+// }
+
+let numero = "hola";
+
+if(isNaN(numero)){
+  console.log("bien");
+}else{
+  console.log("mal es un numero");
 }
