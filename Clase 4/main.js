@@ -130,7 +130,7 @@ nombreFuncion(valor1, valor2, ..., valorn);
 // let nombre = "juan";
 
 // function saludar() {
-//   let nombre = "pedro";
+//   nombre = "pedro";
 //   console.log(nombre);
 // }
 
