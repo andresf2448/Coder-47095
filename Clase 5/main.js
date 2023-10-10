@@ -167,8 +167,8 @@ class Producto {
     this.cantidad = cantidad;
   }
 
-  vender() {
-    this.cantidad -= 1; // this.cantidad = this.cantidad - 1
+  vender(numero) {
+    this.cantidad -= numero; // this.cantidad = this.cantidad - 1
   }
 }
 
