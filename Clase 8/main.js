@@ -119,11 +119,11 @@
 
 // console.log(obtenerFecha(2023, 10, 18));
 
-const navidad = new Date("December 24, 2023");
-const hoy = new Date("October 18, 2023");
+// const navidad = new Date("December 24, 2023");
+// const hoy = new Date("October 18, 2023");
 
-console.log(navidad - hoy);
+// console.log(navidad - hoy);
 
-const milisegundosPorDia = 86400000;
+// const milisegundosPorDia = 86400000;
 
-console.log((navidad - hoy) / milisegundosPorDia);
+// console.log((navidad - hoy) / milisegundosPorDia);
