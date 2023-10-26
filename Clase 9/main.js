@@ -78,11 +78,13 @@
 //traemos el contendor donde mostraremos los productos
 let contenedor = document.getElementById("contenedor");
 const productos = [
-  { id: 1, nombre: "camisa", precio: "1000" },
-  { id: 2, nombre: "gorra", precio: "500" },
-  { id: 3, nombre: "pantalon", precio: "750" },
-  { id: 4, nombre: "media", precio: "398" },
+  { id: 1, nombre: "camisa", precio: "1000", categoria: "hombre" },
+  { id: 2, nombre: "gorra", precio: "500", categoria: "mujer" },
+  { id: 3, nombre: "pantalon", precio: "750", categoria: "" },
+  { id: 4, nombre: "media", precio: "398", categoria: "" },
 ];
+
+
 
 productos.forEach((item) => {
   //creamos la etiqueta que contendrá el contenido del producto
