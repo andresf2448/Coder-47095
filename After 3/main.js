@@ -47,3 +47,19 @@
 // agregarProducto(nombre, precio);
 
 //Crear una función para eliminar un producto por su id
+
+// const eliminarProducto = (id) => {
+//   let productosJson = localStorage.getItem("carrito");
+//   let productos = JSON.parse(productosJson);
+
+//   let productosFiltrados = productos.filter((item) => item.id != id);
+
+//   localStorage.setItem("carrito", JSON.stringify(productosFiltrados));
+// };
+
+// let id = Number(prompt("Ingrese el id del producto a eliminar"));
+// eliminarProducto(id);
+
+//una función que dado el id mmodifique el precio de un producto
+
+const modificarPrecio = (id, precio) => {};
